@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myquizzapp">
+    package="com.example.customquizapp">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyQuizzApp">
         <activity
-            android:name=".ResultActivity"
+            android:name="com.example.customquizapp.ResultActivity"
             android:exported="true" />
         <activity
-            android:name=".QuizQuestionsActivity"
+            android:name="com.example.customquizapp.QuizQuestionsActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.customquizapp.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
